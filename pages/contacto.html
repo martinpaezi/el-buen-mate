@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="shortcut icon" href="../img/mate.png" type="image/x-icon">
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-div">
+      <img class="logo" src="../img/mate.png" alt="logo" width="50px">
+      <h1 class="titulo">El buen mate</h1>
+    </div>
+    <nav class="nav">
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="../index.html">Inicio</a>
+        </li>
+        <li class="menu-item mates">
+          <a href="./matesybombillas.html">Mates y bombillas</a>
+        </li>
+        <li class="menu-item">
+          <a href="./yerbasyaditivos.html">Yerbas y aditivos</a>
+        </li>
+        <li class="menu-item memesmateros">
+          <a href="./memes.html">Memes materos</a>
+        </li>
+        <li class="menu-item active">
+          <a href="#">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <h2 class="main-titulo">¡Registrate para obtener nuestros memes en formato descargable!</h2>
+    <h3 class="subtitulo">¡Además podrás recibir información actualizada en precios, tiendas donde conseguir tus productos, y más!</h3>
+    <!-- <form class="form" action="">
+      <label class="label" for="nombre"></label>
+        Nombre
+      <input class="input input-height" type="text" id="nombre" required>
+      <label class="label" for="apellido"></label>
+        Apellido
+      <input class="input input-height" type="text" id="apellido" required>
+      <label class="label" for="apodo"></label>
+        ¿Cómo te gusta que te digan? (Apodo)
+      <input class="input input-height" type="text" id="apodo">
+      <label class="label" for="email"></label>
+        Email
+      <input class="input input-height" type="email" id="email" required>
+      <label class="label" for="telefono"></label>
+        Telefono
+      <input class="input input-height" type="tel" name="" id="telefono">
+      <label class="label" for="retroalimentacion"></label>
+        ¡Comentanos que opinas de la página!
+      <textarea class="input" name="" id="retroalimentacion" cols="30" rows="7"></textarea>
+      <label class="label" for="memes">
+        <input class="margin-top" type="checkbox" id="memes">Quiero recibir memes de El buen mate
+      </label>
+      <label class="label" for="info">
+        <input class="margin-top" type="checkbox" id="info">Quiero recibir información de El buen mate
+      </label>
+      <button class="button margin-top" type="submit">¡Listo!</button>
+    </form>
+    <div class="row">
+      <div class="col-md-6">
+
+      </div>
+      <div class="col-md-6">
+
+      </div>
+    </div> -->
+    <form class="row container">
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput2" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Escribe tu apellido">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput3" class="form-label">Apodo</label>
+          <input type="text" class="form-control" id="exampleFormControlInput3" placeholder="Cómo te gustaría que te llamemos">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="exampleInputEmail1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+      </div>
+      <div class="container text-center">
+        <div class="row justify-content-center container-form">
+          <div class="mb-3 col-4">
+            <label for="exampleFormControlTextarea1" class="form-label">¡Comentanos que opinas de la página!</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="row justify-content-center container-form">
+          <div class="mb-3 col-4 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Quiero recibir memes de El buen mate</label>
+          </div>
+        </div>
+        <div class="row justify-content-center container-form">
+          <div class="mb-3 col-4 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+            <label class="form-check-label" for="exampleCheck2">Quiero recibir información de El buen mate</label>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <button type="submit" class="btn btn-primary">¡Listo!</button>
+        </div>
+      </div>
+    </form>
+  </main>
+  <footer class="footer">
+    <a href="#">
+      <img class="logo" src="../img/mate.png" alt="logo" width="50px">
+    </a>
+    <div class="social">
+      <div class="social-info">
+        <i class="bi bi-envelope"></i>
+        <p class="texto">elbuenmate@gmail.com</p>
+      </div>
+      <div class="social-info">
+        <i class="bi bi-telephone"></i>
+        <p class="texto">221 707 7070</p>
+      </div>
+    </div>
+    <div class="caja-derechos">
+      <p class="derechos">Derechos reservados a Unbuenmate.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
