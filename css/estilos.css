@@ -290,13 +290,15 @@ ol, ul {
 .memes {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
 }
 
 .meme {
-  min-width: 350px;
-  max-width: 350px;
+  height: 350px;
+}
+
+.button {
+  position: relative;
+  top:36px;
 }
 
 .btn {
@@ -398,6 +400,10 @@ ol, ul {
     gap: 0rem;
   }
 
+  .meme {
+    height: 320px;
+  }
+
   .disabled {
     display: none;
   }
@@ -434,5 +440,10 @@ ol, ul {
   .articulosbombillas {
     display: flex;
     flex-direction: column;
+  }
+
+  .meme {
+    max-height: 240px;
+    max-width: 310px;
   }
 }
