@@ -34,6 +34,7 @@ font-family: 'Merriweather Sans', sans-serif;
   font-size: 2rem;
   font-family: 'Merriweather Sans', sans-serif;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .logo {
@@ -287,13 +288,20 @@ ol, ul {
   padding-top: 0.2rem;
 }
 
-.memes {
-  display: flex;
-  justify-content: center;
+.section-titulo-memes {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.carousel-item, .carousel-inner, .carousel {
+  max-height: 400px;
+  max-width: 400px;
 }
 
 .meme {
   height: 350px;
+  aspect-ratio: 1/1;
 }
 
 .button {
@@ -400,6 +408,10 @@ ol, ul {
     gap: 0rem;
   }
 
+  .div-aditivos {
+    gap: 4rem;
+  }
+
   .meme {
     height: 320px;
   }
@@ -442,8 +454,23 @@ ol, ul {
     flex-direction: column;
   }
 
+  .img-yerba {
+    max-width: 100%;
+  }
+
+  .div-aditivos {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 90%;
+  }
+
+  .aditivos {
+    margin-bottom: 0px;
+  }
+
   .meme {
-    max-height: 240px;
-    max-width: 310px;
+    max-height: 280px;
+    max-width: 280px;
   }
 }
