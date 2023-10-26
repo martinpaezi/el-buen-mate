@@ -74,7 +74,7 @@ ol, ul {
   text-align: center;
 }
 
-.menu-item.active {
+.menu-item.activo {
   text-decoration: underline double;
 }
 
@@ -294,7 +294,7 @@ ol, ul {
   font-weight: 700;
 }
 
-.carousel-item, .carousel-inner, .carousel {
+.maxwidth-height400px {
   max-height: 400px;
   max-width: 400px;
 }
@@ -340,7 +340,7 @@ ol, ul {
     grid-template-columns: 1fr 1.5fr;
   }
 
-  .col-4 {
+  .width300px {
     width: 300px;
   }
 
