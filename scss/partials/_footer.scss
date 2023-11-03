@@ -1,0 +1,63 @@
+.footer {
+  background-color: #447274;
+  color: #faebd7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+
+  .logo {
+    width: 70px;
+  }
+
+  .social {
+    display: flex;
+    gap: 2rem;
+
+    .social-info {
+      display: flex;
+      gap: 0.3rem;
+      padding: 0.5rem;
+
+      .texto {
+        font-size: 1rem;
+        max-width: 75ch;
+      }
+    }
+  }
+
+  .caja-derechos{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    .derechos {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    .logo {
+      max-width: 55px;
+    }
+
+    .social {
+      flex-direction: column;
+      gap: 0rem;
+      
+      .texto {
+        font-size: 0.7rem;
+      }
+    }
+
+    .caja-derechos {
+      .derechos {
+        font-size: 0.5rem;
+        text-align: right;
+      }
+    }
+  }
+}

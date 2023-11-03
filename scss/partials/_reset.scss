@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+*/ 
+
+//Comentario solo en scss
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+ol, ul {
+  padding: 0rem;
+}
