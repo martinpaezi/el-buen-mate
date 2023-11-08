@@ -1,6 +1,6 @@
 .header {
-  background-color: #447274;
-  color: #faebd7;
+  background-color: $colorPrincipal;
+  color: $colorTextoClaro;
   display: grid;
   grid-template-columns: 4fr 3fr;
   width: 100%;
@@ -26,7 +26,7 @@
   }
 
   .nav {
-    background-color: #569497;
+    background-color: $colorNavPrimario;
 
     .menu {
       list-style-type: none;
@@ -45,22 +45,22 @@
 
         a {
           text-decoration: none;
-          color: #faebd7;
+          color: $colorTextoClaro;
           font-family: 'Merriweather Sans', sans-serif;
           font-weight: 700;
           text-align: center;
 
           &:hover {
-            color: #163a70;
+            color: $colorFuerte;
           }
         }
       }
 
       .mates, .memesmateros {
-        background-color: #568897;
+        background-color: $colorNavSecundario;
 
         a{
-          color: #faebd7;
+          color: $colorTextoClaro;
         }
       }
 

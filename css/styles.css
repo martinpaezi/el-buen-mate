@@ -1,3 +1,16 @@
+/*
+.btn{
+background-color: #447274; //colorPrincipal
+background-color: #569497; 
+background-color: #568897;
+background-color: #aad3bc;
+background-color: #80cbcf;
+background-color: #163a70;
+color: #faebd7;
+color: #243d37;
+color: #163a70;
+}
+*/
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap");
 /*
 font-family: 'Lato', sans-serif;
@@ -16,7 +29,7 @@ ol, ul {
 }
 
 .header {
-  background-color: #447274;
+  background-color: #086375;
   color: #faebd7;
   display: grid;
   grid-template-columns: 4fr 3fr;
@@ -68,7 +81,7 @@ ol, ul {
   color: #163a70;
 }
 .header .nav .menu .mates, .header .nav .menu .memesmateros {
-  background-color: #568897;
+  background-color: #288391;
 }
 .header .nav .menu .mates a, .header .nav .menu .memesmateros a {
   color: #faebd7;
@@ -130,8 +143,8 @@ ol, ul {
   }
 }
 .hero, .main, .section {
-  background-color: #aad3bc;
-  color: #243d37;
+  background-color: #cdffc1;
+  color: #163a70;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -338,8 +351,8 @@ ol, ul {
   }
 }
 .hero .btn, .main .btn, .section .btn {
-  background: #163a70;
-  color: #faebd7;
+  background-color: #163a70;
+  color: #80cbcf;
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 800;
   padding: 0.4rem;
@@ -385,7 +398,7 @@ ol, ul {
   }
 }
 .footer {
-  background-color: #447274;
+  background-color: #086375;
   color: #faebd7;
   display: flex;
   justify-content: space-between;

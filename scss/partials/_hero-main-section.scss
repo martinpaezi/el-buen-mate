@@ -1,6 +1,6 @@
 .hero, .main, .section {
-  background-color: #aad3bc;
-  color: #243d37;
+  background-color: $colorFondo;
+  color: $colorTitulos;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,8 +83,8 @@
       margin: 0.3rem;
       padding: 1rem;
       max-width: 350px;
-      background-color: #80cbcf;
-      border: 1px solid #163a70;
+      background-color: $colorClaro;
+      border: 1px solid $colorFuerte;
       border-radius: 5px;
 
       .article-img {
@@ -143,8 +143,8 @@
       margin: 0.3rem;
       padding: 1rem;
       max-width: 350px;
-      background-color: #80cbcf;
-      border: 1px solid #163a70;
+      background-color: $colorClaro;
+      border: 1px solid $colorFuerte;
       border-radius: 5px;
 
       .article-img {
@@ -277,8 +277,8 @@
   }
 
   .btn {
-    background: #163a70;
-    color: #faebd7;
+    background-color: $colorFuerte;
+    color: $colorClaro;
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 800;
     padding: 0.4rem;
