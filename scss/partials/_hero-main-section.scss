@@ -1,6 +1,6 @@
 .hero, .main, .section {
-  background-color: $colorFondo;
-  color: $colorTitulos;
+  background-image: $colorFondo;
+  color: $colorFuerte;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,8 +9,13 @@
 
   .hero-titulo, .main-titulo {
     font-size: 2rem;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather Sans', 'Lato', sans-serif;
     font-weight: 600;
+
+    &:hover {
+      transition: 1s;
+      transform: scale(1.05);
+    }
   }
 
   .texto {
@@ -59,7 +64,7 @@
 
   .section-titulo {
     font-size: 1.5rem;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather Sans', 'Lato', sans-serif;
     font-weight: 600;
   }
 
@@ -86,6 +91,11 @@
       background-color: $colorClaro;
       border: 1px solid $colorFuerte;
       border-radius: 5px;
+      transition: 1s;
+
+      &:hover {
+        transform:translateY(-7px)
+      }
 
       .article-img {
         aspect-ratio: 1/1;
@@ -146,6 +156,11 @@
       background-color: $colorClaro;
       border: 1px solid $colorFuerte;
       border-radius: 5px;
+      transition: 1s;
+
+      &:hover {
+        transform:translateY(-7px)
+      }
 
       .article-img {
         aspect-ratio: 1/1;
@@ -186,9 +201,24 @@
   .img-yerba {
     margin-top: 1rem;
     width: 25rem;
+    animation-name: moverseY;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+    @keyframes moverseY {
+      50%{
+        transform: translateY(20px);
+      }
+
+      100%{
+        transform: translateY(-20px);
+      }
+    }
   }
 
   .articulos {
+    padding: 0.5rem;
+
     .article-yerba {
       margin-top: 2rem;
 
@@ -279,7 +309,7 @@
   .btn {
     background-color: $colorFuerte;
     color: $colorClaro;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Merriweather Sans', 'Lato', sans-serif;
     font-weight: 800;
     padding: 0.4rem;
     width: 5rem;

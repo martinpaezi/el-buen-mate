@@ -11,8 +11,9 @@ font-family: 'Merriweather Sans', sans-serif;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato','Merriweather Sans' , sans-serif;
   font-weight: 400;
+  scroll-behavior: smooth;
 }
 
 ol, ul {

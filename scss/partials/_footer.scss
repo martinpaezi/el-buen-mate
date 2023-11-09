@@ -8,6 +8,12 @@
 
   .logo {
     width: 70px;
+    transition: 2s;
+
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   .social {

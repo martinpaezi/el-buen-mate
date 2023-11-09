@@ -14,14 +14,32 @@
 
     .logo {
       width: 70px;
+      transition: 1s;
+
+      &:hover {
+        transform: scale(1.4);
+      }
     }    
 
     .titulo {
       font-weight:800;
       font-size: 2rem;
-      font-family: 'Merriweather Sans', sans-serif;
+      font-family: 'Merriweather Sans', 'Lato', sans-serif;
       text-align: center;
       margin-bottom: 0px;
+      animation-name: moverse;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+
+      @keyframes moverse {
+        50%{
+          transform: translateX(7px);
+        }
+
+        100%{
+          transform: translateX(0px);
+        }
+      }
     }
   }
 
@@ -46,12 +64,14 @@
         a {
           text-decoration: none;
           color: $colorTextoClaro;
-          font-family: 'Merriweather Sans', sans-serif;
+          font-family: 'Merriweather Sans', 'Lato', sans-serif;
           font-weight: 700;
           text-align: center;
 
           &:hover {
             color: $colorFuerte;
+            transition: 1.7s;
+            transform: rotate(360deg);
           }
         }
       }
