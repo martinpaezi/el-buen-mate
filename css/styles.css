@@ -353,7 +353,7 @@ ol, ul {
     margin-bottom: 0px;
   }
 }
-.hero .section-titulo-memes, .main .section-titulo-memes, .section .section-titulo-memes {
+.hero .articulo-titulo-memes, .main .articulo-titulo-memes, .section .articulo-titulo-memes {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 700;
