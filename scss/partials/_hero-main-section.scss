@@ -327,6 +327,10 @@
       }
     }
   }
+
+  .form-control {
+    border: 1px solid $colorFuerte;
+  }
 }
 
 @media screen and (max-width: 768px) {
