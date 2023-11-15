@@ -79,10 +79,10 @@ ol, ul {
   font-family: "Merriweather Sans", "Lato", sans-serif;
   font-weight: 700;
   text-align: center;
+  transition: 1.7s;
 }
 .header .nav .menu .menu-item a:hover {
   color: #163a70;
-  transition: 1.7s;
   transform: rotate(360deg);
 }
 .header .nav .menu .mates, .header .nav .menu .memesmateros {
@@ -160,9 +160,9 @@ ol, ul {
   font-size: 2rem;
   font-family: "Merriweather Sans", "Lato", sans-serif;
   font-weight: 600;
+  transition: 1s;
 }
 .hero .hero-titulo:hover, .hero .main-titulo:hover, .main .hero-titulo:hover, .main .main-titulo:hover, .section .hero-titulo:hover, .section .main-titulo:hover {
-  transition: 1s;
   transform: scale(1.05);
 }
 .hero .texto, .main .texto, .section .texto {
@@ -402,6 +402,14 @@ ol, ul {
 }
 .hero .form-control, .main .form-control, .section .form-control {
   border: 1px solid #163a70;
+}
+
+.flex-memes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
 }
 
 @media screen and (max-width: 768px) {

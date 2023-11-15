@@ -67,10 +67,10 @@
           font-family: 'Merriweather Sans', 'Lato', sans-serif;
           font-weight: 700;
           text-align: center;
+          transition: 1.7s;
 
           &:hover {
             color: $colorFuerte;
-            transition: 1.7s;
             transform: rotate(360deg);
           }
         }
