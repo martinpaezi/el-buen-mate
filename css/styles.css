@@ -131,6 +131,9 @@ ol, ul {
   .header .nav .menu .contacto {
     grid-area: contacto;
   }
+  .header .nav .menu .menu-item a:hover {
+    transform: scale(1.2);
+  }
   .header .header-div .logo {
     max-width: 55px;
   }
@@ -303,6 +306,9 @@ ol, ul {
   animation-iteration-count: infinite;
 }
 @keyframes moverseY {
+  0% {
+    transform: translateY(-20px);
+  }
   50% {
     transform: translateY(20px);
   }

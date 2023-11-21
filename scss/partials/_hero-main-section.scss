@@ -206,6 +206,10 @@
     animation-iteration-count: infinite;
 
     @keyframes moverseY {
+      0%{
+        transform: translateY(-20px);
+      }
+
       50%{
         transform: translateY(20px);
       }
