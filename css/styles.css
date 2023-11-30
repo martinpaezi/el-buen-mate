@@ -158,7 +158,6 @@ ol, ul {
   align-items: center;
   padding: 2rem 4rem;
   gap: 1rem;
-  min-height: 80vh;
 }
 .hero .hero-titulo, .hero .main-titulo, .main .hero-titulo, .main .main-titulo, .section .hero-titulo, .section .main-titulo {
   font-size: 2rem;
@@ -409,6 +408,10 @@ ol, ul {
 }
 .hero .form-control, .main .form-control, .section .form-control {
   border: 1px solid #163a70;
+}
+
+.min-height {
+  min-height: 80vh;
 }
 
 .flex-memes {

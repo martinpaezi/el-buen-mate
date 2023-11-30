@@ -6,7 +6,6 @@
   align-items: center;
   padding: 2rem 4rem;
   gap: 1rem;
-  min-height: 80vh;
 
   .hero-titulo, .main-titulo {
     font-size: 2rem;
@@ -336,6 +335,10 @@
   .form-control {
     border: 1px solid $colorFuerte;
   }
+}
+
+.min-height {
+  min-height: 80vh;
 }
 
 .flex-memes {
