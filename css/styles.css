@@ -158,6 +158,7 @@ ol, ul {
   align-items: center;
   padding: 2rem 4rem;
   gap: 1rem;
+  min-height: 80vh;
 }
 .hero .hero-titulo, .hero .main-titulo, .main .hero-titulo, .main .main-titulo, .section .hero-titulo, .section .main-titulo {
   font-size: 2rem;
